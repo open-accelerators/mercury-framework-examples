@@ -32,7 +32,7 @@ The customer credit rating service domain always returns the same value for a gi
 ## How to use the examples
 
 1. Create a Minikube cluster with the Mercury Operator and all the dependencies. Look at
-   the [Mercury Operator installation instructions](../../mercury-operator/README.md)
+   the [Mercury Operator installation instructions](https://github.com/open-accelerators/mercury-operator/blob/main/README.md)
 2. Create a Service Domain Infra Resource
 
 ```shell
@@ -66,7 +66,7 @@ kubectl create -f deploy/customer-offer-reporting.yaml
 kubectl create -f deploy/party-routing-profile-reporting.yaml
 ```
 
-###  Customer Offer and Party Routing Profile
+### Customer Offer and Party Routing Profile
 
 1. Initiate a Customer Offer
 
@@ -89,7 +89,7 @@ $ curl -vH "Content-Type: application/json" `minikube service -n mercury custome
 
 2. Check if the Party Routing Profile exists for this Customer Offer Reference
 
-    * For specific Customer Offer Reference status (CUSTOMER_OFFER_REFERENCE)
+* For specific Customer Offer Reference status (CUSTOMER_OFFER_REFERENCE)
 
 ```shell
 $ curl -H "Content-Type: application/json" `minikube service -n mercury party-routing-profile-camelk-rest --url=true`/PartyRoutingProfile/anna/Retrieve
