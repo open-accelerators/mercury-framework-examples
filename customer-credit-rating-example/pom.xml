@@ -10,9 +10,9 @@
     <name>Examples :: Customer Credit Rating</name>
     <dependencies>
         <dependency>
-            <groupId>io.github.open-accelerators</groupId>
+            <groupId>${project.groupId}</groupId>
             <artifactId>customer-credit-rating-common</artifactId>
-            <version>1.0.2</version>
+            <version>${project.version}</version>
         </dependency>
         <dependency>
             <groupId>io.quarkus</groupId>
@@ -34,9 +34,9 @@
             <scope>test</scope>
         </dependency>
         <dependency>
-            <groupId>io.github.open-accelerators</groupId>
+            <groupId>${project.groupId}</groupId>
             <artifactId>customer-credit-rating-client</artifactId>
-            <version>1.0.2</version>
+            <version>${project.version}</version>
             <scope>test</scope>
         </dependency>
     </dependencies>
