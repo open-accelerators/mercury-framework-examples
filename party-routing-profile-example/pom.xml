@@ -4,7 +4,7 @@
     <parent>
         <groupId>io.github.open-accelerators</groupId>
         <artifactId>mercury-framework-examples</artifactId>
-        <version>1.0.2-SNAPSHOT</version>
+        <version>1.0.2</version>
     </parent>
     <artifactId>party-routing-profile-example</artifactId>
     <name>Examples :: Party Routing Profile</name>
@@ -12,12 +12,12 @@
         <dependency>
             <groupId>io.github.open-accelerators</groupId>
             <artifactId>party-routing-profile-common</artifactId>
-            <version>${project.parent.version}</version>
+            <version>1.0.2</version>
         </dependency>
         <dependency>
             <groupId>io.github.open-accelerators</groupId>
             <artifactId>customer-offer-common</artifactId>
-            <version>${project.parent.version}</version>
+            <version>1.0.2</version>
         </dependency>
         <dependency>
             <groupId>io.quarkus</groupId>
@@ -46,7 +46,7 @@
         <dependency>
             <groupId>io.github.open-accelerators</groupId>
             <artifactId>party-routing-profile-client</artifactId>
-            <version>${project.parent.version}</version>
+            <version>1.0.2</version>
             <scope>test</scope>
         </dependency>
     </dependencies>
