@@ -9,6 +9,14 @@
     <artifactId>mercury-framework-examples</artifactId>
     <name>Examples</name>
     <packaging>pom</packaging>
+
+    <scm>
+        <connection>scm:git:ssh://git@github.com/open-accelerators/mercury-framework-examples.git</connection>
+        <developerConnection>scm:git:ssh://git@github.com/open-accelerators/mercury-framework-examples.git</developerConnection>
+        <url>https://github.com/open-accelerators/mercury-framework-examples/tree/main</url>
+        <tag>HEAD</tag>
+    </scm>
+
     <modules>
         <module>customer-credit-rating-example</module>
         <module>party-routing-profile-example</module>
