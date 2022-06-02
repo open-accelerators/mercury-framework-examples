@@ -44,9 +44,9 @@
             <scope>test</scope>
         </dependency>
         <dependency>
-            <groupId>io.github.open-accelerators</groupId>
+            <groupId>${project.groupId}</groupId>
             <artifactId>party-routing-profile-client</artifactId>
-            <version>1.0.2</version>
+            <version>${project.version}</version>
             <scope>test</scope>
         </dependency>
     </dependencies>
