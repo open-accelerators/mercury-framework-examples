@@ -4,7 +4,7 @@
     <parent>
         <groupId>io.github.open-accelerators</groupId>
         <artifactId>mercury-framework-examples</artifactId>
-        <version>1.0.2</version>
+        <version>1.0.3-SNAPSHOT</version>
     </parent>
     <artifactId>customer-offer-example</artifactId>
     <name>Examples :: Customer Offer</name>

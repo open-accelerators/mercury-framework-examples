@@ -7,6 +7,7 @@
         <version>1.0.2</version>
     </parent>
     <artifactId>mercury-framework-examples</artifactId>
+  <version>1.0.3-SNAPSHOT</version>
     <name>Examples</name>
     <packaging>pom</packaging>
 
@@ -14,7 +15,7 @@
         <connection>scm:git:ssh://git@github.com/open-accelerators/mercury-framework-examples.git</connection>
         <developerConnection>scm:git:ssh://git@github.com/open-accelerators/mercury-framework-examples.git</developerConnection>
         <url>https://github.com/open-accelerators/mercury-framework-examples/tree/main</url>
-        <tag>v1.0.2</tag>
+        <tag>HEAD</tag>
     </scm>
 
     <modules>
